@@ -28,10 +28,10 @@ for i in soup.findAll("span",{"class","lister-item-index unbold text-primary"})[
 
 
 class tweetSearchAndAnalysis():
-    ckey = 'RhXU0VWFCU3jIT4YUClIKuuyc'
-    csecret = 'yhIaitf5URHEetbbStTQVNGkDNgQqRbyZv5suKelfHVqo0DGxm'
-    atoken = '880759723519352832-EpLdxd2LXtDbaNnKnkAEIiL5c4gW82l'
-    asecret = 'oK0TCsgPNeHkRuYb1MOm4fPtMbticHth7p1OaYMS1Afcx'
+    ckey = '*******************'
+    csecret = '*******************'
+    atoken = '*******************************'
+    asecret = '********************************'
     auth = OAuthHandler(ckey, csecret)
     auth.set_access_token(atoken, asecret)
     api = tweepy.API(auth)
